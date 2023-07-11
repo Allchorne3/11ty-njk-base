@@ -1,4 +1,3 @@
-const emojiReadTime = require("@11tyrocks/eleventy-plugin-emoji-readtime") //For blog post read time
 const htmlmin = require("html-minifier"); //minify html
 
 const prettyDate = require('./lib/pretty-date.js')
@@ -14,15 +13,6 @@ module.exports = function(eleventyConfig) {
 
     // Expose Nunjucks filters
     eleventyConfig.addFilter("prettyDate", prettyDate);
-
-    // From https://www.npmjs.com/package/@11tyrocks/eleventy-plugin-emoji-readtime
-    eleventyConfig.addPlugin(emojiReadTime, { 
-        showEmoji: false, 
-        wpm: 250,
-        // emoji: "🕚",
-        label: "min read",
-        bucketSize: 1,
-    })
 
     // Automatically open up the browser on script runs
     eleventyConfig.setBrowserSyncConfig({

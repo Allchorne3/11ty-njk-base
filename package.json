@@ -1,7 +1,7 @@
 {
   "name": "11ty-nunjucks",
   "version": "1.0.0",
-  "description": "These are the starting files for an 11ty website with the Nunjucks template engine. For styling SCSS is used. The site comprises of a couple of pages and a full blog",
+  "description": "These are the starting files for an 11ty website with the Nunjucks template engine. For styling SCSS is used. The site comprises of a couple of pages",
   "main": "index.js",
   "scripts": {
     "dev:11ty": "cross-env NODE_ENV=dev npx @11ty/eleventy --serve",
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/Allchorne3/11ty-nunjucks#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy": "^2.0.1",
     "@babel/cli": "^7.21.0",
     "@babel/core": "^7.21.4",
     "@babel/preset-env": "^7.21.4",
@@ -37,7 +37,6 @@
     "sass-loader": "^12.6.0"
   },
   "dependencies": {
-    "@11tyrocks/eleventy-plugin-emoji-readtime": "^1.0.1",
     "@fortawesome/fontawesome-free": "^6.2.0",
     "moment": "^2.29.4"
   }
