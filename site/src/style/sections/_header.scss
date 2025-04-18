@@ -1,35 +1,37 @@
 @use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as m;
 
 /* //////////////////////
   Header
   /////////////////////// */
 
-.page-header {
-  padding: 2em 0;
+#header {
+	padding: 2em 1rem;
+	display: flex;
+	justify-content: space-between;
 
-  &__content {
-    display: flex;
-    justify-content: space-between;
-  }
-  
+	@include m.desktop {
+		background: coral;
+	}
 }
 
-.nav-list {
-  margin: 0;
-  padding: 0;
-  font-family: $ff-heading;
-
-  a {
-    color: $clr-primary;
-    text-decoration: none;
-
-    &:focus,
-    &:hover {
-      text-decoration: underline;
-    }
-  }
+.navbar {
+	&-list {
+		display: flex;
+		gap: 1rem;
+		
+		a {
+			color: $text;
+			text-decoration: none;
+			
+			&:focus,
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
 }
 
 [aria-current="page"] {
-  font-weight: bold;
+	font-weight: bold;
 }
