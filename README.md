@@ -3,8 +3,16 @@
 This starter project uses the following tech stack:
 
 1. Eleventy
-2. Laravel Mix - For handling assets, such as JS, SCSS and images
+2. Laravel Mix - For handling assets, such as JS, CSS and images
 3. Nunjucks - The template engine
+4. SCSS
+
+---
+### Pre installed dependencies
+
+- Font Awesome _(Free)_
+- Moment
+---
 
 ### How to get started
 
