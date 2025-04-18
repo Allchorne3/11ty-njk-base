@@ -16,8 +16,14 @@ This starter project uses the following tech stack:
 
 ### How to get started
 
-1. Run `npm install` or `npm i` for short
+There are two ways that you can use this template. 
 
-_Once completed..._
+* **Option 1:** Click the green `Use this template` button near the top of this page, then click `Create a new respository`
 
-2. Run `npm run dev` to start the development server _OR_ `npm run build` for the production build
+* **Option 2:** Click the green `Code` button, make sure you are on the `local` tab and then click `Download ZIP`. Once it has downloaded, unzip the file and copy it to your preferred destination.
+
+_Once you have selected option 1 or 2, you can then do the following:_
+
+1. Run `npm install` (or `npm i` for short)
+
+2. Once completed, run `npm run dev` to start the development server. You can view this on your browser by going to `localhost:8080` _OR_ for a production build, run `npm run build`. _You will know this has worked because you’ll see a folder called public_
